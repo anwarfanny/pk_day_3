@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+tbody{
+    counter-reset: section;
+    font-family: 'pt sahara', samir;
+
+}
+tbody> tr > td.firs-cihld::before{
+counter-increment: section;
+content: counter(section);
+}
+img{
+    filter: brightness(lpx);
+    width: 200px;
+    height: 200px;
+}
+.border-nd{
+    border:lpk solid green;
+    border-radius: 5px;
+    padding: 10px;
+}
+.shadow{
+    box-shadow: 5px 5px 5px rgb(161, 29, 29);
+}
